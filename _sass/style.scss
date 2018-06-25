@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(112.2971578767872deg, rgba(73, 112, 242,1) 34.57812500000001%,rgba(72, 111, 241,1) 34.57812500000001%,rgba(0, 46, 230,1) 63.53645833333334%);
+    color: #eee;
+    overflow-x: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+.headline {
+    font-size: 5em;
+    
+    @include media-query($on-palm) {
+        font-size: 2em;
+    }
+}
+
+.pt-300 {
+    padding-top: 300px;
+    
+    @include media-query($on-palm) {
+        padding-top: 100px;
+    }
+}
+.white {
+    color: white !important;
+}
