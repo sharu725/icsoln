@@ -25,3 +25,11 @@ body {
 .white {
     color: white !important;
 }
+
+a {
+    color: #fff;
+    &:hover {
+        color: #eee;
+        text-decoration: none;
+    }
+}
